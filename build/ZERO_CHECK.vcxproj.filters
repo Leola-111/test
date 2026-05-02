@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\1Study\BigXueMainTest\GitTest\test\build\CMakeFiles\68b147220450b8f887aaa95a4505570e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{210CF4C3-D9B2-3514-873D-0DD4076B2F0D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

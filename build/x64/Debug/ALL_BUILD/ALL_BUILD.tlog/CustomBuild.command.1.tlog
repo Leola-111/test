@@ -1,0 +1,10 @@
+^D:\1STUDY\BIGXUEMAINTEST\GITTEST\TEST\CMAKELISTS.TXT
+setlocal
+D:\1Study\app\cmake\bin\cmake.exe -SD:/1Study/BigXueMainTest/GitTest/test -BD:/1Study/BigXueMainTest/GitTest/test/build --check-stamp-file D:/1Study/BigXueMainTest/GitTest/test/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
